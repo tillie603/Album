@@ -3,27 +3,39 @@
     <head>
         <title>Contact Us</title>
     </head>
+<body>
+        <style>
+            label {float: left; width: 12em; text-align: right;}
+            input, textarea {text-align: left;}
+            input.submit {text-align: right;}
+            p.indent{ padding-left: 12em } 
+       </style>
 <form action="#" method="post">
-    First Name: <input type="firstName" name="firstName" /></br>
-    Last Name: <input type="lastName" name="lastName" /></br>
-    Email: <input type="email" name="email" /></br>
-    Type of License:     
-    <input type="radio" name="option" value="Business" />Business   
-    <input type="radio" name="option" value="Personal" />Personal</br>
-    Reason: <select name="reason">
+    <label>First Name: &nbsp &nbsp</label>   
+    <input type="text" name="firstName" size="25"/></br></br>
+    </div>
+    <label>Last Name: &nbsp &nbsp</label> 
+    <input type="text" name="lastName" size="25"/></br></br>
+    <label>Email: &nbsp &nbsp</label>  
+    <input type="text" name="email" size="25"/></br></br>
+    <label>Type of License: &nbsp &nbsp</label>
+    <input type="radio" name="option" value="business" checked/>Business   
+    <input type="radio" name="option" value="personal"/>Personal</br></br>
+    <label>Reason: &nbsp &nbsp</label>
+        <select name="reason">
         <option value="selectReason">Select a Reason</option>
         <option value="softwareSupport">Software Support</option>
         <option value="hardwareSupport">Hardware Support</option>
         <option value="informationRequest">Information Request</option>
-    </select></br>
-    Additional Information<textarea name="additionalInfo"></textarea></br>
-    <input type="checkbox" name="tos" value="tos">I have read the terms of service </br>
-    <input type="submit" name="sendRequest" value="Send Request"/>
-    <div>
-
-    </div>
+    </select></br></br>
+    <label>Additional Information: &nbsp &nbsp </label>
+        <textarea rows="10" cols=25"/> </textarea></br>
+    <p class="indent">
+        <input type="checkbox" name="tos" value="tos">I have read the terms of service</br></br>
+        &nbsp &nbsp &nbsp &nbsp <input type="submit" name="sendRequest" value="Send Request"/>
+    </p>
+    <h4>Navigation</h4>
+    <a href="Index.html">Home</a>
 </form>
-    <body> 
-        <h3> </h3>
-    </body>
+</body> 
 </html>
