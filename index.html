@@ -4,12 +4,25 @@
   <title>Crosby, Stills & Nash</title>
     <!--this is my external stylesheet-->
     <link  href="albumStyles.css"
-    rel="stylesheet"
-    type="text/css"
+            rel="stylesheet"
+            type="text/css"
    />
 <style>
     table, th, td {
     border: 1px solid black;
+    }
+    tbody td {
+    font-style: italic;
+    background-color:bisque;
+    text-align: center;
+    }
+    a:link, a:active {
+        color: red;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+        background: greenyellow;
     }
    </style>
     </head>
@@ -17,11 +30,11 @@
         <div class="bg-div">  
         </div>
 <center><h1 style="font-family:Fantasy";>Crosby, Stills & Nash</h1></center>
-<center><h3><a href="https://www.crosbystillsnash.com/discography/1969/crosby-stills-nash/">Crosby, Stills & Nash</a></h3></center>
+<center><H3><a href="https://www.crosbystillsnash.com/discography/1969/crosby-stills-nash/">Crosby, Stills & Nash</a></H3></center>
 <center><h5>Released 1969</h5></center>
 <hr/>
 <div>
-<p style="color:green;font-weight:bold;">
+<p style="color:blue;font-weight:bold;">
     Though the musicians had previously recorded albums with other bands, 
     this is the first album recorded together as the band Crosby, Stills & Nash, released in 1969 on the Atlantic Records label. 
     Songs from the album were performed at the Woodstock Festival in August of 1969.
@@ -50,11 +63,14 @@
 <table>
   <table border="1" width="100%">
     <Caption>Tracks</Caption>
-    <tr bgcolor="grey">
-        <th>Track #</th>
+    <thead>
+        <tr bgcolor="grey">
+               <th>Track #</th>
         <th>Track Title</th>
         <th>Track Length</th>
     </tr>
+</thead>
+<tbody>
     <tr>
         <td>1</td>
         <td>Suite: Judy Blue Eyes</td>
@@ -70,6 +86,7 @@
         <td>Guinnevere</td>
         <td>4:40</td>
     </tr>
+</tbody>
 </table>
 <h4>Navigation</h4>
 <a href="contactUs.html">Contact Us</a>
