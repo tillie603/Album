@@ -4,9 +4,12 @@ body {
 }
 ul {font-style: italic;
 }
-.bg-div {
-    background:url(CSN_album-full.jpg);
-    background-repeat: no-repeat;
-    height: 400px;
-    background-position: center;
+/* .bg-div  */
+
+#albumimg {
+    margin: auto;
+    background-image:url(CSN_album-full.jpg);
+    /* background-repeat: no-repeat; */
+    height: 350px;
+    width: 350px;
 }
