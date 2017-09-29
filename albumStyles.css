@@ -6,10 +6,10 @@ ul {font-style: italic;
 }
 /* .bg-div  */
 
-#albumimg {
+#albumimage {
     margin: auto;
     background-image:url(CSN_album-full.jpg);
-    /* background-repeat: no-repeat; */
+   /* background-repeat: no-repeat;  */
     height: 350px;
     width: 350px;
 }
